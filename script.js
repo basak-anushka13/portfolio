@@ -35,3 +35,15 @@ window.addEventListener("DOMContentLoaded", function () {
     retina_detect: true
   });
 });
+const viewAllBtn = document.getElementById("viewAllBtn");
+
+viewAllBtn.addEventListener("click", function () {
+  const hiddenProjects = document.querySelectorAll(".more-project");
+  const isVisible = hiddenProjects[0].style.display === "block";
+
+  hiddenProjects.forEach(card => {
+    card.style.display = isVisible ? "none" : "block";
+  });
+
+  viewAllBtn.textContent = isVisible ? "🔽 View All" : "🔼 Show Less";
+});
