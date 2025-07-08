@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Anushka | Portfolio</title>
-  <link rel="preload" as="image" href="girl.jpeg">
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -97,90 +96,100 @@
     </div>
   </section>
 
-  <section id="projects" class="section">
-    <h2>My Projects 🧩</h2>
-    <div class="project-container">
-      
-      <div class="project-card">
-        <img src="solar-system.gif" alt="3D Solar System" />
-        <h3>🌌 3D Solar System</h3>
-        <p>A dynamic 3D model of the solar system using Three.js.</p>
-<a href="https://basak-anushka13.github.io/SolarSystem/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="ortho-trace.gif" alt="OrthoTrace App" />
-        <h3>🦴 OrthoTrace</h3>
-        <p>A bone fracture detection app that uses ML to help doctors with quick diagnosis.</p>
-      </div>
-      <div class="project-card">
-        <img src="weather-app.gif" alt="Weather App" />
-        <h3>☁️ Cloud-Based Weather App</h3>
-        <p>Weather app, built using cloud APIs.</p>
-      </div>
-<div class="project-card">
-        <img src="game.gif" alt="Startup Website" />
-        <h3>💼 Vortexium</h3>
-        <p>Interactive startup website with futuristic effects.</p>
-<a href="https://basak-anushka13.github.io/my-startup/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="email.gif" alt="Resume Builder" />
-        <h3>🛡️ InboxArmor</h3>
-        <p>A lightweight Flask-based web app that uses an SVM ML model to classify emails as spam or not spam.</p>
-<a href="https://emailspamdetector-jggl.onrender.com/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="hand.gif" alt="Resume Builder" />
-        <h3>🔢 Handwritten Digit Recognizer</h3>
-        <p>This project uses a CNN trained on the MNIST dataset to recognize handwritten digits.</p>
-<a href="https://huggingface.co/spaces/Basakanu/digit-recognizer" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="loan.gif" alt="Resume Builder" />
-        <h3>💰 Loan Eligibility Predictor</h3>
-        <p>An ML–powered app that predicts loan approval based using a smart Random Forest model.</p>
-<a href="https://loan-eligibility-predictor-l8umxrcqefgocpt2yfqxkd.streamlit.app/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="col.gif" alt="Resume Builder" />
-        <h3>🏫 TechTales</h3>
-        <p>A full-stack college club website with MongoDB integration.</p>
-<a href="https://techtales-contact-api.onrender.com/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="blog.gif" alt="WriteVerse" />
-        <h3>🏫 WriteVerse</h3>
-        <p>A simple and clean markdown blog using Firebase and vanilla JavaScript.</p>
-<a href="https://writeverse-1b743.web.app" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="com.gif" alt="WriteVerse" />
-        <h3>🏫 WriteVers</h3>
-        <p>A simple and clean markdown blog using Firebase and vanilla JavaScript.</p>
-<a href="https://writeverse-1b743.web.app" class="project-btn">🔗 View Live</a>
-      </div>
-<div class="project-card">
-        <img src="res.gif" alt="Resume Builder" />
-        <h3>📝 Elev́e</h3>
-        <p>A resume bulder project using HTML, CSS, JavaScript.</p>
-<a href="https://basak-anushka13.github.io/resume-builder/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="stud.gif" alt="Resume Builder" />
-        <h3>🎓 BrightGrade</h3>
-        <p>A modern student management dashboard built with React, Tailwind CSS, and Vite.</p>
-<a href="https://basak-anushka13.github.io/student-dashboard/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
-      <div class="project-card">
-        <img src="todo.gif" alt="Resume Builder" />
-        <h3>✅ ListNova</h3>
-        <p>A colorful and fun To-Do list web app built using HTML, CSS, JavaScript.</p>
-<a href="https://basak-anushka13.github.io/listnova/" target="_blank" class="project-btn">🔗 View Live</a>
-      </div>
+  <!-- 🛑 Only the projects section is shown below. Keep the rest of your HTML as it is -->
 
+<section id="projects" class="section">
+  <h2>My Projects 🧩</h2>
+  <div class="project-container" id="all-projects">
+    <!-- First 6 projects -->
+    <div class="project-card">
+      <img src="solar-system.gif" alt="3D Solar System" />
+      <h3>🌌 3D Solar System</h3>
+      <p>A dynamic 3D model of the solar system using Three.js.</p>
+      <a href="https://basak-anushka13.github.io/SolarSystem/" target="_blank" class="project-btn">🔗 View Live</a>
     </div>
-  </section>
-<section id="certificate" class="section">
+
+    <div class="project-card">
+      <img src="ortho-trace.gif" alt="OrthoTrace App" />
+      <h3>🦴 OrthoTrace</h3>
+      <p>A bone fracture detection app that uses ML to help doctors with quick diagnosis.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="weather-app.gif" alt="Weather App" />
+      <h3>☁️ Cloud-Based Weather App</h3>
+      <p>Weather app, built using cloud APIs.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="game.gif" alt="Startup Website" />
+      <h3>💼 Vortexium</h3>
+      <p>Interactive startup website with futuristic effects.</p>
+      <a href="https://basak-anushka13.github.io/my-startup/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card">
+      <img src="email.gif" alt="InboxArmor" />
+      <h3>🛡️ InboxArmor</h3>
+      <p>A Flask-based web app that uses an SVM ML model to classify emails as spam or not spam.</p>
+      <a href="https://emailspamdetector-jggl.onrender.com/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card">
+      <img src="hand.gif" alt="Digit Recognizer" />
+      <h3>🔢 Handwritten Digit Recognizer</h3>
+      <p>This project uses a CNN trained on the MNIST dataset to recognize handwritten digits.</p>
+      <a href="https://huggingface.co/spaces/Basakanu/digit-recognizer" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <!-- Hidden projects with 'more-project' class -->
+    <div class="project-card more-project" style="display: none;">
+      <img src="loan.gif" alt="Loan Eligibility Predictor" />
+      <h3>💰 Loan Eligibility Predictor</h3>
+      <p>An ML–powered app that predicts loan approval using a smart Random Forest model.</p>
+      <a href="https://loan-eligibility-predictor-l8umxrcqefgocpt2yfqxkd.streamlit.app/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card more-project" style="display: none;">
+      <img src="col.gif" alt="TechTales" />
+      <h3>🏫 TechTales</h3>
+      <p>A full-stack college club website with MongoDB integration.</p>
+      <a href="https://techtales-contact-api.onrender.com/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card more-project" style="display: none;">
+      <img src="blog.gif" alt="WriteVerse" />
+      <h3>📝 WriteVerse</h3>
+      <p>A simple and clean markdown blog using Firebase and vanilla JavaScript.</p>
+      <a href="https://writeverse-1b743.web.app" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card more-project" style="display: none;">
+      <img src="res.gif" alt="Resume Builder" />
+      <h3>📝 Elev́e</h3>
+      <p>A resume builder project using HTML, CSS, and JavaScript.</p>
+      <a href="https://basak-anushka13.github.io/resume-builder/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card more-project" style="display: none;">
+      <img src="stud.gif" alt="BrightGrade" />
+      <h3>🎓 BrightGrade</h3>
+      <p>A modern student dashboard built with React, Tailwind CSS, and Vite.</p>
+      <a href="https://basak-anushka13.github.io/student-dashboard/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+
+    <div class="project-card more-project" style="display: none;">
+      <img src="todo.gif" alt="To-Do List" />
+      <h3>✅ ListNova</h3>
+      <p>A colorful and fun To-Do list app made using HTML, CSS, and JavaScript.</p>
+      <a href="https://basak-anushka13.github.io/listnova/" target="_blank" class="project-btn">🔗 View Live</a>
+    </div>
+  </div>
+  <!-- View All Button -->
+  <button id="viewAllBtn" class="btn">🔽 View All</button>
+</section>
+
+  <section id="certificate" class="section">
   <h2>Certification 🏅</h2>
   <div class="certificate-card">
     <h3>IIT Madras - Strategy Formulation and Data Visualization</h3>
@@ -197,7 +206,7 @@
   <ul class="language-list">
     <li>English – Fluent</li>
     <li>Hindi – Native</li>
-    <li>Bengali – Native</li>
+    <li>Bengali – Ntive</li>
     <!-- Add more if needed -->
   </ul>
 </section>
@@ -220,7 +229,6 @@
     <!-- Add more experience cards as needed -->
   </div>
 </section>
-<body class="dark-mode">
 
   <section id="contact" class="section">
   <h2>Contact 📫</h2>
@@ -234,7 +242,6 @@
     <a href="https://www.linkedin.com/in/anushka-basak-39b2a525a" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/basak-anushka13" target="_blank"><i class="fab fa-github"></i></a>
   </div>
-
   <a class="download-btn" href="AnushkaBasakresume.pdf" download>📄 Download Resume</a>
 </section>
 
