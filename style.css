@@ -27,7 +27,7 @@ body {
 .toggle-container {
   position: fixed; /* changed from absolute */
   right: 20px;
-  top: 15px;
+  top: 50px;
   z-index: 20;   
 }
 
